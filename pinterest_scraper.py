@@ -36,7 +36,7 @@ def download_image(url, folder):
             print(f"Downloaded {file_name}")
             
     except Exception as e:
-        print(f"download is fucked up{url}: {e}")
+        print(f"download failed {url}: {e}")
 
 
 
